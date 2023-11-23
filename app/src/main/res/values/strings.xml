@@ -51,6 +51,10 @@ Cooler
 ID-Cooling SE-802-SD
 </string>
 
+    <string name="id_cooling_224">
+ID-Cooling SE-224-XTS
+</string>
+
     <string name="next">
 Next
 </string>
@@ -137,6 +141,42 @@ ATX Cougar VTE X2 600 Rev.2
 
     <string name="atx_1stplay">
 ATX 1STPLAYER RAINBOW R3
+</string>
+
+    <string name="the_assembl">
+The assemblies are suitable for modern AAA games using predominantly maximum graphics quality in Full HD and WQHD resolution, as well as using ray tracing and upscaling methods.
+</string>
+
+    <string name="amd_ryzen_5_5">
+AMD Ryzen 5 5600
+</string>
+
+    <string name="intel_core_3_10">
+Intel Core i3-10105F
+</string>
+
+    <string name="intel_core_3_12">
+Intel Core i3-12105F
+</string>
+
+    <string name="intel_core_5_12">
+Intel Core i5-12400F
+</string>
+
+    <string name="matx_asus_p_550">
+mATX ASUS PRIME B550M-K
+</string>
+
+    <string name="matx_gigaby_760">
+mATX GIGABYTE B760M DS3H DDR4
+</string>
+
+    <string name="ddr4_32gb_2">
+DDR4 32GB (2*16GB) Kingston FURY
+</string>
+
+    <string name="sapphire_ra">
+Sapphire Radeon RX 6700 XT PULSE
 </string>
 
 </resources>

@@ -178,4 +178,21 @@
         <item name="android:textColor">#FFFFFF</item>
     </style>
 
+    <style name="the_assembl">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="ddr4_32gb_2">
+        <item name="android:textSize">30sp</item>
+        <item name="android:letterSpacing">-0.05</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="sapphire_ra">
+        <item name="android:textSize">30sp</item>
+        <item name="android:letterSpacing">-0.06</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
 </resources>
