@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/com_pc_component_guru_app_loading_navigation"
+    app:startDestination="@id/loadingFragmentComPcComponentGuruApp">
+    <fragment
+        android:id="@+id/starterBuildFragmentMenuComPCComponentGuruAppBinding2"
+        android:name="com.PC.Component.Guru.app.starterBuild.ProcStarterBuildFragmentMenuComPCComponentGuruApp"
+        android:label="fragment_starter_build_proc_com_p_c_component_guru_app"
+        tools:layout="@layout/fragment_starter_build_proc_com_p_c_component_guru_app" />
+    <fragment
+        android:id="@+id/menuFragmentComPCComponentGuruApp4"
+        android:name="com.PC.Component.Guru.app.MenuFragmentComPCComponentGuruApp"
+        android:label="fragment_menu_com_p_c_component_guru_app"
+        tools:layout="@layout/fragment_menu_com_p_c_component_guru_app" >
+        <action
+            android:id="@+id/action_menuFragmentComPCComponentGuruApp4_to_starterBuildFragmentMenuComPCComponentGuruAppBinding2"
+            app:destination="@id/starterBuildFragmentMenuComPCComponentGuruAppBinding2" />
+    </fragment>
+    <fragment
+        android:id="@+id/loadingFragmentComPcComponentGuruApp"
+        android:name="com.PC.Component.Guru.app.LoadingFragmentComPcComponentGuruApp"
+        android:label="fragment_loading_com_pc_component_guru_app"
+        tools:layout="@layout/fragment_loading_com_pc_component_guru_app" >
+        <action
+            android:id="@+id/action_loadingFragmentComPcComponentGuruApp_to_menuFragmentComPCComponentGuruApp4"
+            app:destination="@id/menuFragmentComPCComponentGuruApp4" />
+    </fragment>
+</navigation>

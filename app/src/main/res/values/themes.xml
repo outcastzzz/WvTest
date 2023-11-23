@@ -1,0 +1,181 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PCComponentGuru" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:fontFamily">@font/judson_regular</item>
+    </style>
+    
+    <style name="Theme.PCComponentGuru" parent="Base.Theme.PCComponentGuru" />
+
+    <style name="build_your_">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="loading">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="starter_bui">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="basic_build">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="optimal_bui">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="advanced_bu">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="maximum_bui">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="exit">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="this_catego">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="cpu">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="intel_core_">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="cooler">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="id_cooling_">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="next">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="motherboard">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="matx_asus_p">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="ram">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="ddr4_16gb_2">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="video_card">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="pci_e_palit">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="storage">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="ssd_m_2_228">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="ase">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="atx_exegate">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="power_unit">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="atx_deepcoo">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="builds_suit">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="amd_ryzen_5">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="matx_gigaby">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="palit_gefor">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="deepcool_ag">
+        <item name="android:textSize">30sp</item>
+        <item name="android:letterSpacing">-0.04</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="atx_1stplay">
+        <item name="android:textSize">30sp</item>
+        <item name="android:letterSpacing">-0.04</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="atx_cougar_">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>

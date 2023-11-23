@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">PC Component Guru</string>
+
+    <string name="loading">
+        Loading
+    </string>
+
+    <string name="build_your_">
+        Build your PC
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="starter_bui">
+        Starter build
+    </string>
+
+    <string name="optimal_bui">
+Optimal build
+</string>
+
+    <string name="advanced_bu">
+Advanced build
+</string>
+
+    <string name="maximum_bui">
+Maximum build
+</string>
+
+    <string name="exit">
+Exit
+</string>
+
+    <string name="this_catego">
+This category covers assemblies with the ability to play in Full HD resolution using predominantly high-quality graphics. The presented system unit will also cope well with old games from 3-5 years ago.
+</string>
+
+    <string name="cpu">
+CPU
+</string>
+
+    <string name="intel_core_">
+Intel Core i3-10105F
+</string>
+
+    <string name="cooler">
+Cooler
+</string>
+
+    <string name="id_cooling_">
+ID-Cooling SE-802-SD
+</string>
+
+    <string name="next">
+Next
+</string>
+
+    <string name="motherboard">
+Motherboard
+</string>
+
+    <string name="matx_asus_p">
+mATX ASUS PRIME H510M-A
+</string>
+
+    <string name="ram">
+RAM
+</string>
+
+    <string name="ddr4_16gb_2">
+DDR4 16GB (2*8GB) Kingston FURY
+</string>
+
+    <string name="video_card">
+Video card
+</string>
+
+    <string name="pci_e_palit">
+PCI-E Palit GeForce RTX 3050 Dual
+</string>
+
+    <string name="storage">
+Storage
+</string>
+
+    <string name="ssd_m_2_228">
+SSD M.2 2280 ADATA
+</string>
+
+    <string name="ase">
+Сase
+</string>
+
+    <string name="atx_exegate">
+ATX Exegate AA-440-AA350
+</string>
+
+    <string name="power_unit">
+Power Unit
+</string>
+
+    <string name="atx_deepcoo">
+ATX Deepcool PF500
+</string>
+
+    <string name="basic_build">
+Basic build
+</string>
+
+    <string name="builds_suit">
+Builds suitable for modern AAA games in Full HD resolution with predominantly maximum graphics quality enabled, but without the use of ray tracing. In some cases you will have to use DLSS or FSR.
+</string>
+
+    <string name="amd_ryzen_5">
+AMD Ryzen 5 3600
+</string>
+
+    <string name="matx_gigaby">
+mATX GIGABYTE H610M K
+</string>
+
+    <string name="matx_asus_p2">
+mATX ASUS PRIME B450M-K II
+</string>
+
+    <string name="palit_gefor">
+Palit GeForce RTX 3060 DUAL OC
+</string>
+
+    <string name="deepcool_ag">
+Deepcool AG300
+</string>
+
+    <string name="atx_cougar_">
+ATX Cougar VTE X2 600 Rev.2
+</string>
+
+    <string name="atx_1stplay">
+ATX 1STPLAYER RAINBOW R3
+</string>
+
+</resources>
