@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/backComPcComponentGuruApp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -54,7 +54,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/menuComPcComponentGuruApp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
@@ -88,7 +88,7 @@
         android:layout_alignParentTop="true"
         android:gravity="center_horizontal|top"
         android:lineSpacingExtra="10sp"
-        android:text="@string/matx_asus_p"
+        android:text="@string/matx_asus_h_h510"
         android:textAppearance="@style/matx_asus_p"
         android:translationY="-4.99sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -97,8 +97,8 @@
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="290dp"
+        android:layout_height="151dp"
         android:src="@drawable/sb_mother_com_pc_component_guru_app"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -106,8 +106,8 @@
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="308dp"
+        android:layout_height="154dp"
         android:src="@drawable/sb_ram_com_pc_component_guru_app"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -160,7 +160,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 
     <TextView
-        android:id="@+id/next"
+        android:id="@+id/nextComPcComponentGuruApp"
         android:layout_width="185.38dp"
         android:layout_height="44.31dp"
         android:layout_alignParentStart="true"

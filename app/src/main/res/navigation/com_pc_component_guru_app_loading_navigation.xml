@@ -8,7 +8,20 @@
         android:id="@+id/starterBuildFragmentMenuComPCComponentGuruAppBinding2"
         android:name="com.PC.Component.Guru.app.starterBuild.ProcStarterBuildFragmentMenuComPCComponentGuruApp"
         android:label="fragment_starter_build_proc_com_p_c_component_guru_app"
-        tools:layout="@layout/fragment_starter_build_proc_com_p_c_component_guru_app" />
+        tools:layout="@layout/fragment_starter_build_proc_com_p_c_component_guru_app" >
+        <action
+            android:id="@+id/action_starterBuildFragmentMenuComPCComponentGuruAppBinding2_to_MBStarerBuildComPCComponentGuruApp"
+            app:destination="@id/MBStarerBuildComPCComponentGuruApp" />
+        <action
+            android:id="@+id/action_starterBuildFragmentMenuComPCComponentGuruAppBinding2_to_menuFragmentComPCComponentGuruApp4"
+            app:destination="@id/menuFragmentComPCComponentGuruApp4" />
+        <action
+            android:id="@+id/action_starterBuildFragmentMenuComPCComponentGuruAppBinding2_to_menuFragmentComPCComponentGuruApp42"
+            app:destination="@id/menuFragmentComPCComponentGuruApp4" />
+        <action
+            android:id="@+id/action_starterBuildFragmentMenuComPCComponentGuruAppBinding2_to_menuFragmentComPCComponentGuruApp43"
+            app:destination="@id/menuFragmentComPCComponentGuruApp4" />
+    </fragment>
     <fragment
         android:id="@+id/menuFragmentComPCComponentGuruApp4"
         android:name="com.PC.Component.Guru.app.MenuFragmentComPCComponentGuruApp"
@@ -17,6 +30,18 @@
         <action
             android:id="@+id/action_menuFragmentComPCComponentGuruApp4_to_starterBuildFragmentMenuComPCComponentGuruAppBinding2"
             app:destination="@id/starterBuildFragmentMenuComPCComponentGuruAppBinding2" />
+        <action
+            android:id="@+id/action_menuFragmentComPCComponentGuruApp4_to_basicBuildProcComPcComponentGuruApp"
+            app:destination="@id/basicBuildProcComPcComponentGuruApp" />
+        <action
+            android:id="@+id/action_menuFragmentComPCComponentGuruApp4_to_optimalBuildProcComPcComponentGuru"
+            app:destination="@id/optimalBuildProcComPcComponentGuru" />
+        <action
+            android:id="@+id/action_menuFragmentComPCComponentGuruApp4_to_advancedBuildProcComPcComponentGuruApp"
+            app:destination="@id/advancedBuildProcComPcComponentGuruApp" />
+        <action
+            android:id="@+id/action_menuFragmentComPCComponentGuruApp4_to_maxBuildProcComPcComponentGuruApp"
+            app:destination="@id/maxBuildProcComPcComponentGuruApp" />
     </fragment>
     <fragment
         android:id="@+id/loadingFragmentComPcComponentGuruApp"
@@ -25,6 +50,324 @@
         tools:layout="@layout/fragment_loading_com_pc_component_guru_app" >
         <action
             android:id="@+id/action_loadingFragmentComPcComponentGuruApp_to_menuFragmentComPCComponentGuruApp4"
+            app:destination="@id/menuFragmentComPCComponentGuruApp4" />
+    </fragment>
+    <fragment
+        android:id="@+id/advancedBuildCaseComPcComponentGuruApp"
+        android:name="com.PC.Component.Guru.app.advancedBuild.AdvancedBuildCaseComPcComponentGuruApp"
+        android:label="fragment_advanced_build_case_com_pc_component_guru_app"
+        tools:layout="@layout/fragment_advanced_build_case_com_pc_component_guru_app" >
+        <action
+            android:id="@+id/action_advancedBuildCaseComPcComponentGuruApp_to_advancedBuildGpuComPcComponentGuruApp"
+            app:destination="@id/advancedBuildGpuComPcComponentGuruApp" />
+        <action
+            android:id="@+id/action_advancedBuildCaseComPcComponentGuruApp_to_menuFragmentComPCComponentGuruApp4"
+            app:destination="@id/menuFragmentComPCComponentGuruApp4" />
+    </fragment>
+    <fragment
+        android:id="@+id/advancedBuildGpuComPcComponentGuruApp"
+        android:name="com.PC.Component.Guru.app.advancedBuild.AdvancedBuildGpuComPcComponentGuruApp"
+        android:label="fragment_advanced_build_gpu_com_pc_component_guru_app"
+        tools:layout="@layout/fragment_advanced_build_gpu_com_pc_component_guru_app" >
+        <action
+            android:id="@+id/action_advancedBuildGpuComPcComponentGuruApp_to_advancedBuildCaseComPcComponentGuruApp"
+            app:destination="@id/advancedBuildCaseComPcComponentGuruApp" />
+        <action
+            android:id="@+id/action_advancedBuildGpuComPcComponentGuruApp_to_advancedBuildRamComPcComponentGuruApp"
+            app:destination="@id/advancedBuildRamComPcComponentGuruApp" />
+        <action
+            android:id="@+id/action_advancedBuildGpuComPcComponentGuruApp_to_menuFragmentComPCComponentGuruApp4"
+            app:destination="@id/menuFragmentComPCComponentGuruApp4" />
+    </fragment>
+    <fragment
+        android:id="@+id/advancedBuildMBComPcComponentGuruApp"
+        android:name="com.PC.Component.Guru.app.advancedBuild.AdvancedBuildMBComPcComponentGuruApp"
+        android:label="fragment_advanced_build_m_b_com_pc_component_guru_app"
+        tools:layout="@layout/fragment_advanced_build_m_b_com_pc_component_guru_app" >
+        <action
+            android:id="@+id/action_advancedBuildMBComPcComponentGuruApp_to_advancedBuildRamComPcComponentGuruApp"
+            app:destination="@id/advancedBuildRamComPcComponentGuruApp" />
+        <action
+            android:id="@+id/action_advancedBuildMBComPcComponentGuruApp_to_advancedBuildProcComPcComponentGuruApp"
+            app:destination="@id/advancedBuildProcComPcComponentGuruApp" />
+        <action
+            android:id="@+id/action_advancedBuildMBComPcComponentGuruApp_to_menuFragmentComPCComponentGuruApp4"
+            app:destination="@id/menuFragmentComPCComponentGuruApp4" />
+    </fragment>
+    <fragment
+        android:id="@+id/advancedBuildProcComPcComponentGuruApp"
+        android:name="com.PC.Component.Guru.app.advancedBuild.AdvancedBuildProcComPcComponentGuruApp"
+        android:label="fragment_advanced_build_proc_com_pc_component_guru_app"
+        tools:layout="@layout/fragment_advanced_build_proc_com_pc_component_guru_app" >
+        <action
+            android:id="@+id/action_advancedBuildProcComPcComponentGuruApp_to_advancedBuildMBComPcComponentGuruApp"
+            app:destination="@id/advancedBuildMBComPcComponentGuruApp" />
+        <action
+            android:id="@+id/action_advancedBuildProcComPcComponentGuruApp_to_menuFragmentComPCComponentGuruApp4"
+            app:destination="@id/menuFragmentComPCComponentGuruApp4" />
+    </fragment>
+    <fragment
+        android:id="@+id/advancedBuildRamComPcComponentGuruApp"
+        android:name="com.PC.Component.Guru.app.advancedBuild.AdvancedBuildRamComPcComponentGuruApp"
+        android:label="fragment_advanced_build_ram_com_pc_component_guru_app"
+        tools:layout="@layout/fragment_advanced_build_ram_com_pc_component_guru_app" >
+        <action
+            android:id="@+id/action_advancedBuildRamComPcComponentGuruApp_to_advancedBuildGpuComPcComponentGuruApp"
+            app:destination="@id/advancedBuildGpuComPcComponentGuruApp" />
+        <action
+            android:id="@+id/action_advancedBuildRamComPcComponentGuruApp_to_advancedBuildMBComPcComponentGuruApp"
+            app:destination="@id/advancedBuildMBComPcComponentGuruApp" />
+        <action
+            android:id="@+id/action_advancedBuildRamComPcComponentGuruApp_to_menuFragmentComPCComponentGuruApp4"
+            app:destination="@id/menuFragmentComPCComponentGuruApp4" />
+    </fragment>
+    <fragment
+        android:id="@+id/basicBuildCaseComPcComponentGuruApp"
+        android:name="com.PC.Component.Guru.app.basicBuild.BasicBuildCaseComPcComponentGuruApp"
+        android:label="fragment_basic_build_case_com_pc_component_guru_app"
+        tools:layout="@layout/fragment_basic_build_case_com_pc_component_guru_app" >
+        <action
+            android:id="@+id/action_basicBuildCaseComPcComponentGuruApp_to_basicBuildStorageComPcComponentGuruApp"
+            app:destination="@id/basicBuildStorageComPcComponentGuruApp" />
+        <action
+            android:id="@+id/action_basicBuildCaseComPcComponentGuruApp_to_menuFragmentComPCComponentGuruApp4"
+            app:destination="@id/menuFragmentComPCComponentGuruApp4" />
+    </fragment>
+    <fragment
+        android:id="@+id/basicBuildGpuComPcComponentGuruApp"
+        android:name="com.PC.Component.Guru.app.basicBuild.BasicBuildGpuComPcComponentGuruApp"
+        android:label="fragment_basic_build_gpu_com_pc_component_guru_app"
+        tools:layout="@layout/fragment_basic_build_gpu_com_pc_component_guru_app" >
+        <action
+            android:id="@+id/action_basicBuildGpuComPcComponentGuruApp_to_basicBuildStorageComPcComponentGuruApp"
+            app:destination="@id/basicBuildStorageComPcComponentGuruApp" />
+        <action
+            android:id="@+id/action_basicBuildGpuComPcComponentGuruApp_to_basicBuildMBComPcComponentGuruApp"
+            app:destination="@id/basicBuildMBComPcComponentGuruApp" />
+        <action
+            android:id="@+id/action_basicBuildGpuComPcComponentGuruApp_to_menuFragmentComPCComponentGuruApp4"
+            app:destination="@id/menuFragmentComPCComponentGuruApp4" />
+    </fragment>
+    <fragment
+        android:id="@+id/basicBuildMBComPcComponentGuruApp"
+        android:name="com.PC.Component.Guru.app.basicBuild.BasicBuildMBComPcComponentGuruApp"
+        android:label="fragment_basic_build_m_b_com_pc_component_guru_app"
+        tools:layout="@layout/fragment_basic_build_m_b_com_pc_component_guru_app" >
+        <action
+            android:id="@+id/action_basicBuildMBComPcComponentGuruApp_to_basicBuildGpuComPcComponentGuruApp"
+            app:destination="@id/basicBuildGpuComPcComponentGuruApp" />
+        <action
+            android:id="@+id/action_basicBuildMBComPcComponentGuruApp_to_basicBuildProcComPcComponentGuruApp"
+            app:destination="@id/basicBuildProcComPcComponentGuruApp" />
+        <action
+            android:id="@+id/action_basicBuildMBComPcComponentGuruApp_to_menuFragmentComPCComponentGuruApp4"
+            app:destination="@id/menuFragmentComPCComponentGuruApp4" />
+    </fragment>
+    <fragment
+        android:id="@+id/basicBuildProcComPcComponentGuruApp"
+        android:name="com.PC.Component.Guru.app.basicBuild.BasicBuildProcComPcComponentGuruApp"
+        android:label="fragment_basic_build_proc_com_pc_component_guru_app"
+        tools:layout="@layout/fragment_basic_build_proc_com_pc_component_guru_app" >
+        <action
+            android:id="@+id/action_basicBuildProcComPcComponentGuruApp_to_basicBuildMBComPcComponentGuruApp"
+            app:destination="@id/basicBuildMBComPcComponentGuruApp" />
+        <action
+            android:id="@+id/action_basicBuildProcComPcComponentGuruApp_to_menuFragmentComPCComponentGuruApp4"
+            app:destination="@id/menuFragmentComPCComponentGuruApp4" />
+    </fragment>
+    <fragment
+        android:id="@+id/basicBuildStorageComPcComponentGuruApp"
+        android:name="com.PC.Component.Guru.app.basicBuild.BasicBuildStorageComPcComponentGuruApp"
+        android:label="fragment_basic_build_storage_com_pc_component_guru_app"
+        tools:layout="@layout/fragment_basic_build_storage_com_pc_component_guru_app" >
+        <action
+            android:id="@+id/action_basicBuildStorageComPcComponentGuruApp_to_basicBuildCaseComPcComponentGuruApp"
+            app:destination="@id/basicBuildCaseComPcComponentGuruApp" />
+        <action
+            android:id="@+id/action_basicBuildStorageComPcComponentGuruApp_to_basicBuildGpuComPcComponentGuruApp"
+            app:destination="@id/basicBuildGpuComPcComponentGuruApp" />
+        <action
+            android:id="@+id/action_basicBuildStorageComPcComponentGuruApp_to_menuFragmentComPCComponentGuruApp4"
+            app:destination="@id/menuFragmentComPCComponentGuruApp4" />
+    </fragment>
+    <fragment
+        android:id="@+id/maxBuildCaseComPcComponentGuruApp"
+        android:name="com.PC.Component.Guru.app.maximumBuild.MaxBuildCaseComPcComponentGuruApp"
+        android:label="fragment_max_build_case_com_pc_component_guru_app"
+        tools:layout="@layout/fragment_max_build_case_com_pc_component_guru_app" >
+        <action
+            android:id="@+id/action_maxBuildCaseComPcComponentGuruApp_to_maxBuildGpuComPcComponentGuruApp"
+            app:destination="@id/maxBuildGpuComPcComponentGuruApp" />
+        <action
+            android:id="@+id/action_maxBuildCaseComPcComponentGuruApp_to_menuFragmentComPCComponentGuruApp4"
+            app:destination="@id/menuFragmentComPCComponentGuruApp4" />
+    </fragment>
+    <fragment
+        android:id="@+id/maxBuildGpuComPcComponentGuruApp"
+        android:name="com.PC.Component.Guru.app.maximumBuild.MaxBuildGpuComPcComponentGuruApp"
+        android:label="fragment_max_build_gpu_com_pc_component_guru_app"
+        tools:layout="@layout/fragment_max_build_gpu_com_pc_component_guru_app" >
+        <action
+            android:id="@+id/action_maxBuildGpuComPcComponentGuruApp_to_maxBuildCaseComPcComponentGuruApp"
+            app:destination="@id/maxBuildCaseComPcComponentGuruApp" />
+        <action
+            android:id="@+id/action_maxBuildGpuComPcComponentGuruApp_to_maxBuildRamComPcComponentGuruApp"
+            app:destination="@id/maxBuildRamComPcComponentGuruApp" />
+        <action
+            android:id="@+id/action_maxBuildGpuComPcComponentGuruApp_to_menuFragmentComPCComponentGuruApp4"
+            app:destination="@id/menuFragmentComPCComponentGuruApp4" />
+    </fragment>
+    <fragment
+        android:id="@+id/maxBuildMotherComPcComponentGuruApp"
+        android:name="com.PC.Component.Guru.app.maximumBuild.MaxBuildMotherComPcComponentGuruApp"
+        android:label="fragment_max_build_mother_com_pc_component_guru_app"
+        tools:layout="@layout/fragment_max_build_mother_com_pc_component_guru_app" >
+        <action
+            android:id="@+id/action_maxBuildMotherComPcComponentGuruApp_to_maxBuildRamComPcComponentGuruApp"
+            app:destination="@id/maxBuildRamComPcComponentGuruApp" />
+        <action
+            android:id="@+id/action_maxBuildMotherComPcComponentGuruApp_to_maxBuildProcComPcComponentGuruApp"
+            app:destination="@id/maxBuildProcComPcComponentGuruApp" />
+        <action
+            android:id="@+id/action_maxBuildMotherComPcComponentGuruApp_to_menuFragmentComPCComponentGuruApp4"
+            app:destination="@id/menuFragmentComPCComponentGuruApp4" />
+    </fragment>
+    <fragment
+        android:id="@+id/maxBuildProcComPcComponentGuruApp"
+        android:name="com.PC.Component.Guru.app.maximumBuild.MaxBuildProcComPcComponentGuruApp"
+        android:label="fragment_max_build_proc_com_pc_component_guru_app"
+        tools:layout="@layout/fragment_max_build_proc_com_pc_component_guru_app" >
+        <action
+            android:id="@+id/action_maxBuildProcComPcComponentGuruApp_to_maxBuildMotherComPcComponentGuruApp"
+            app:destination="@id/maxBuildMotherComPcComponentGuruApp" />
+        <action
+            android:id="@+id/action_maxBuildProcComPcComponentGuruApp_to_menuFragmentComPCComponentGuruApp4"
+            app:destination="@id/menuFragmentComPCComponentGuruApp4" />
+    </fragment>
+    <fragment
+        android:id="@+id/maxBuildRamComPcComponentGuruApp"
+        android:name="com.PC.Component.Guru.app.maximumBuild.MaxBuildRamComPcComponentGuruApp"
+        android:label="fragment_max_build_ram_com_pc_component_guru_app"
+        tools:layout="@layout/fragment_max_build_ram_com_pc_component_guru_app" >
+        <action
+            android:id="@+id/action_maxBuildRamComPcComponentGuruApp_to_maxBuildGpuComPcComponentGuruApp"
+            app:destination="@id/maxBuildGpuComPcComponentGuruApp" />
+        <action
+            android:id="@+id/action_maxBuildRamComPcComponentGuruApp_to_maxBuildMotherComPcComponentGuruApp"
+            app:destination="@id/maxBuildMotherComPcComponentGuruApp" />
+        <action
+            android:id="@+id/action_maxBuildRamComPcComponentGuruApp_to_menuFragmentComPCComponentGuruApp4"
+            app:destination="@id/menuFragmentComPCComponentGuruApp4" />
+    </fragment>
+    <fragment
+        android:id="@+id/optimalBuildCaseComPcComponentGuru"
+        android:name="com.PC.Component.Guru.app.optimalBuild.OptimalBuildCaseComPcComponentGuru"
+        android:label="fragment_optimal_build_case_com_pc_component_guru"
+        tools:layout="@layout/fragment_optimal_build_case_com_pc_component_guru" >
+        <action
+            android:id="@+id/action_optimalBuildCaseComPcComponentGuru_to_optimalBuildGpuComPcComponentGuru"
+            app:destination="@id/optimalBuildGpuComPcComponentGuru" />
+        <action
+            android:id="@+id/action_optimalBuildCaseComPcComponentGuru_to_menuFragmentComPCComponentGuruApp4"
+            app:destination="@id/menuFragmentComPCComponentGuruApp4" />
+    </fragment>
+    <fragment
+        android:id="@+id/optimalBuildGpuComPcComponentGuru"
+        android:name="com.PC.Component.Guru.app.optimalBuild.OptimalBuildGpuComPcComponentGuru"
+        android:label="fragment_optimal_build_gpu_com_pc_component_guru"
+        tools:layout="@layout/fragment_optimal_build_gpu_com_pc_component_guru" >
+        <action
+            android:id="@+id/action_optimalBuildGpuComPcComponentGuru_to_optimalBuildCaseComPcComponentGuru"
+            app:destination="@id/optimalBuildCaseComPcComponentGuru" />
+        <action
+            android:id="@+id/action_optimalBuildGpuComPcComponentGuru_to_optimalBuildRamComPcComponentGuru"
+            app:destination="@id/optimalBuildRamComPcComponentGuru" />
+        <action
+            android:id="@+id/action_optimalBuildGpuComPcComponentGuru_to_menuFragmentComPCComponentGuruApp4"
+            app:destination="@id/menuFragmentComPCComponentGuruApp4" />
+    </fragment>
+    <fragment
+        android:id="@+id/optimalBuildMBComPcComponentGuru"
+        android:name="com.PC.Component.Guru.app.optimalBuild.OptimalBuildMBComPcComponentGuru"
+        android:label="fragment_optimal_build_m_b_com_pc_component_guru"
+        tools:layout="@layout/fragment_optimal_build_m_b_com_pc_component_guru" >
+        <action
+            android:id="@+id/action_optimalBuildMBComPcComponentGuru_to_optimalBuildRamComPcComponentGuru"
+            app:destination="@id/optimalBuildRamComPcComponentGuru" />
+        <action
+            android:id="@+id/action_optimalBuildMBComPcComponentGuru_to_optimalBuildProcComPcComponentGuru"
+            app:destination="@id/optimalBuildProcComPcComponentGuru" />
+        <action
+            android:id="@+id/action_optimalBuildMBComPcComponentGuru_to_menuFragmentComPCComponentGuruApp4"
+            app:destination="@id/menuFragmentComPCComponentGuruApp4" />
+    </fragment>
+    <fragment
+        android:id="@+id/optimalBuildProcComPcComponentGuru"
+        android:name="com.PC.Component.Guru.app.optimalBuild.OptimalBuildProcComPcComponentGuru"
+        android:label="fragment_optimal_build_proc_com_pc_component_guru"
+        tools:layout="@layout/fragment_optimal_build_proc_com_pc_component_guru" >
+        <action
+            android:id="@+id/action_optimalBuildProcComPcComponentGuru_to_optimalBuildMBComPcComponentGuru"
+            app:destination="@id/optimalBuildMBComPcComponentGuru" />
+        <action
+            android:id="@+id/action_optimalBuildProcComPcComponentGuru_to_menuFragmentComPCComponentGuruApp4"
+            app:destination="@id/menuFragmentComPCComponentGuruApp4" />
+    </fragment>
+    <fragment
+        android:id="@+id/optimalBuildRamComPcComponentGuru"
+        android:name="com.PC.Component.Guru.app.optimalBuild.OptimalBuildRamComPcComponentGuru"
+        android:label="fragment_optimal_build_ram_com_pc_component_guru"
+        tools:layout="@layout/fragment_optimal_build_ram_com_pc_component_guru" >
+        <action
+            android:id="@+id/action_optimalBuildRamComPcComponentGuru_to_optimalBuildGpuComPcComponentGuru"
+            app:destination="@id/optimalBuildGpuComPcComponentGuru" />
+        <action
+            android:id="@+id/action_optimalBuildRamComPcComponentGuru_to_optimalBuildMBComPcComponentGuru"
+            app:destination="@id/optimalBuildMBComPcComponentGuru" />
+        <action
+            android:id="@+id/action_optimalBuildRamComPcComponentGuru_to_menuFragmentComPCComponentGuruApp4"
+            app:destination="@id/menuFragmentComPCComponentGuruApp4" />
+    </fragment>
+    <fragment
+        android:id="@+id/MBStarerBuildComPCComponentGuruApp"
+        android:name="com.PC.Component.Guru.app.starterBuild.MBStarerBuildComPCComponentGuruApp"
+        android:label="fragment_starer_build_m_b_com_p_c_component_guru_app"
+        tools:layout="@layout/fragment_starer_build_m_b_com_p_c_component_guru_app" >
+        <action
+            android:id="@+id/action_MBStarerBuildComPCComponentGuruApp_to_gpuStarterBuildComPCComponentGuruApp"
+            app:destination="@id/gpuStarterBuildComPCComponentGuruApp" />
+        <action
+            android:id="@+id/action_MBStarerBuildComPCComponentGuruApp_to_starterBuildFragmentMenuComPCComponentGuruAppBinding2"
+            app:destination="@id/starterBuildFragmentMenuComPCComponentGuruAppBinding2" />
+        <action
+            android:id="@+id/action_MBStarerBuildComPCComponentGuruApp_to_menuFragmentComPCComponentGuruApp4"
+            app:destination="@id/menuFragmentComPCComponentGuruApp4" />
+    </fragment>
+    <fragment
+        android:id="@+id/caseStarterBuildComPCComponentGuruApp"
+        android:name="com.PC.Component.Guru.app.starterBuild.CaseStarterBuildComPCComponentGuruApp"
+        android:label="fragment_starter_build_case_com_p_c_component_guru_app"
+        tools:layout="@layout/fragment_starter_build_case_com_p_c_component_guru_app" >
+        <action
+            android:id="@+id/action_caseStarterBuildComPCComponentGuruApp_to_gpuStarterBuildComPCComponentGuruApp"
+            app:destination="@id/gpuStarterBuildComPCComponentGuruApp" />
+        <action
+            android:id="@+id/action_caseStarterBuildComPCComponentGuruApp_to_menuFragmentComPCComponentGuruApp4"
+            app:destination="@id/menuFragmentComPCComponentGuruApp4" />
+    </fragment>
+    <fragment
+        android:id="@+id/gpuStarterBuildComPCComponentGuruApp"
+        android:name="com.PC.Component.Guru.app.starterBuild.GpuStarterBuildComPCComponentGuruApp"
+        android:label="fragment_starter_build_gpu_com_p_c_component_guru_app"
+        tools:layout="@layout/fragment_starter_build_gpu_com_p_c_component_guru_app" >
+        <action
+            android:id="@+id/action_gpuStarterBuildComPCComponentGuruApp_to_caseStarterBuildComPCComponentGuruApp"
+            app:destination="@id/caseStarterBuildComPCComponentGuruApp" />
+        <action
+            android:id="@+id/action_gpuStarterBuildComPCComponentGuruApp_to_MBStarerBuildComPCComponentGuruApp"
+            app:destination="@id/MBStarerBuildComPCComponentGuruApp" />
+        <action
+            android:id="@+id/action_gpuStarterBuildComPCComponentGuruApp_to_menuFragmentComPCComponentGuruApp4"
             app:destination="@id/menuFragmentComPCComponentGuruApp4" />
     </fragment>
 </navigation>

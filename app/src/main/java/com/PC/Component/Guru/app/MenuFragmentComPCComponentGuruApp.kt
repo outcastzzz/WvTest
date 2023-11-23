@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import com.PC.Component.Guru.app.databinding.FragmentMenuComPCComponentGuruAppBinding
 
 
@@ -26,9 +27,27 @@ class MenuFragmentComPCComponentGuruApp : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.starterBui.setOnClickListener {
-
+        with(binding) {
+            starterBui.setOnClickListener {
+                findNavController().navigate(R.id.action_menuFragmentComPCComponentGuruApp4_to_starterBuildFragmentMenuComPCComponentGuruAppBinding2)
+            }
+            basicBuild.setOnClickListener {
+                findNavController().navigate(R.id.action_menuFragmentComPCComponentGuruApp4_to_basicBuildProcComPcComponentGuruApp)
+            }
+            optimalBui.setOnClickListener {
+                findNavController().navigate(R.id.action_menuFragmentComPCComponentGuruApp4_to_optimalBuildProcComPcComponentGuru)
+            }
+            advancedBu.setOnClickListener {
+                findNavController().navigate(R.id.action_menuFragmentComPCComponentGuruApp4_to_advancedBuildProcComPcComponentGuruApp)
+            }
+            maximumBui.setOnClickListener {
+                findNavController().navigate(R.id.action_menuFragmentComPCComponentGuruApp4_to_maxBuildProcComPcComponentGuruApp)
+            }
+            exit.setOnClickListener {
+                requireActivity().finish()
+            }
         }
+
     }
 
 }

@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/backComPcComponentGuruApp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -36,7 +36,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="25dp"
         android:background="@drawable/rectangle_1"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/backComPcComponentGuruApp"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -54,7 +54,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/menuComPcComponentGuruApp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
@@ -139,7 +139,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/next"
+        android:id="@+id/nextComPcComponentGuruApp"
         android:layout_width="185.38dp"
         android:layout_height="44.31dp"
         android:gravity="center_horizontal|top"
@@ -153,11 +153,12 @@
 
     <ImageView
         android:id="@+id/imageView19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_width="185dp"
+        android:layout_height="183dp"
+        android:layout_marginTop="8dp"
         android:src="@drawable/bb_cooler_com_pc_component_guru_app"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/deepcool_ag" />
 

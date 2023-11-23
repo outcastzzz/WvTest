@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/backComPcComponentGuruApp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -36,7 +36,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="25dp"
         android:background="@drawable/rectangle_1"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/backComPcComponentGuruApp"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -55,7 +55,7 @@
         app:layout_constraintStart_toStartOf="@+id/rectangle_1" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/menuComPcComponentGuruApp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
@@ -128,7 +128,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/next"
+        android:id="@+id/nextComPcComponentGuruApp"
         android:layout_width="185.38dp"
         android:layout_height="44.31dp"
         android:gravity="center_horizontal|top"
@@ -142,8 +142,8 @@
 
     <ImageView
         android:id="@+id/imageView25"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_height="133dp"
         android:src="@drawable/ob_moth_com_pc_component_guru_app"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -151,8 +151,8 @@
 
     <ImageView
         android:id="@+id/imageView26"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="238dp"
+        android:layout_height="146dp"
         android:layout_marginTop="20dp"
         android:src="@drawable/ob_moth2_com_pc_component_guru_app"
         app:layout_constraintEnd_toEndOf="parent"

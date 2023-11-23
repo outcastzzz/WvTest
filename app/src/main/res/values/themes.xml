@@ -195,4 +195,88 @@
         <item name="android:textColor">#FFFFFF</item>
     </style>
 
+    <style name="atx_zalman_">
+        <item name="android:textSize">30sp</item>
+        <item name="android:letterSpacing">-0.06</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="the_builds_">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="amd_ryzen_7">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="liquid_cool">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="ddr5_32gb_2">
+        <item name="android:textSize">30sp</item>
+        <item name="android:letterSpacing">-0.05</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="gigabyte_ge">
+        <item name="android:textSize">30sp</item>
+        <item name="android:letterSpacing">-0.1</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="adata_agamm">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="eatx_deepco">
+        <item name="android:textSize">30sp</item>
+        <item name="android:letterSpacing">-0.06</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="atx_be_quie">
+        <item name="android:textSize">30sp</item>
+        <item name="android:letterSpacing">-0.05</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="amd_ryzen_9">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="atx_msi_mpg">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="atx_msi_mag">
+        <item name="android:textSize">30sp</item>
+        <item name="android:letterSpacing">-0.05</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="li_galahad_">
+        <item name="android:textSize">30sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="eatx_phante">
+        <item name="android:textSize">30sp</item>
+        <item name="android:letterSpacing">-0.06</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="atx_seasoni">
+        <item name="android:textSize">30sp</item>
+        <item name="android:letterSpacing">-0.05</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
 </resources>

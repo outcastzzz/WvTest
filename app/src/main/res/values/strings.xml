@@ -43,6 +43,14 @@ CPU
 Intel Core i3-10105F
 </string>
 
+    <string name="intel_core_5_13">
+Intel Core i5-13600KF
+</string>
+
+    <string name="intel_core_7">
+Intel Core i7-13700K
+</string>
+
     <string name="cooler">
 Cooler
 </string>
@@ -63,8 +71,24 @@ Next
 Motherboard
 </string>
 
-    <string name="matx_asus_p">
+    <string name="atx_msi_mpg">
+ATX MSI MPG B650 CARBON WIFI
+</string>
+
+    <string name="atx_msi_mag">
+ATX MSI MAG Z790 TOMAHAWK WIFI
+</string>
+
+    <string name="matx_asus_h_h510">
 mATX ASUS PRIME H510M-A
+</string>
+
+    <string name="matx_asus_p_450">
+        mATX ASUS PRIME B450M-K II
+    </string>
+
+    <string name="matx_asus_p_550">
+mATX ASUS PRIME B550M-K
 </string>
 
     <string name="ram">
@@ -91,6 +115,10 @@ Storage
 SSD M.2 2280 ADATA
 </string>
 
+    <string name="ssd_m_2_228_sams">
+SSD M.2 2280 Samsung
+</string>
+
     <string name="ase">
 Сase
 </string>
@@ -105,6 +133,10 @@ Power Unit
 
     <string name="atx_deepcoo">
 ATX Deepcool PF500
+</string>
+
+    <string name="atx_deepcoo_pk650d">
+ATX Deepcool PK650D
 </string>
 
     <string name="basic_build">
@@ -123,12 +155,20 @@ AMD Ryzen 5 3600
 mATX GIGABYTE H610M K
 </string>
 
+    <string name="matx_gigaby_760">
+mATX GIGABYTE B760M DS3H DDR4
+</string>
+
     <string name="matx_asus_p2">
 mATX ASUS PRIME B450M-K II
 </string>
 
     <string name="palit_gefor">
 Palit GeForce RTX 3060 DUAL OC
+</string>
+
+    <string name="palit_gefor_40">
+Palit GeForce RTX 4090 GameRock
 </string>
 
     <string name="deepcool_ag">
@@ -163,12 +203,8 @@ Intel Core i3-12105F
 Intel Core i5-12400F
 </string>
 
-    <string name="matx_asus_p_550">
-mATX ASUS PRIME B550M-K
-</string>
-
-    <string name="matx_gigaby_760">
-mATX GIGABYTE B760M DS3H DDR4
+    <string name="atx_asus_pr">
+ATX ASUS PRIME B650-PLUS
 </string>
 
     <string name="ddr4_32gb_2">
@@ -177,6 +213,70 @@ DDR4 32GB (2*16GB) Kingston FURY
 
     <string name="sapphire_ra">
 Sapphire Radeon RX 6700 XT PULSE
+</string>
+
+    <string name="atx_zalman_">
+ATX Zalman S3 TG
+</string>
+
+    <string name="the_builds_">
+The builds are suitable for modern AAA games using predominantly maximum graphics quality in WQ HD resolution, as well as using ray tracing and upscaling methods.
+</string>
+
+    <string name="amd_ryzen_9">
+AMD Ryzen 9 7900X
+</string>
+
+    <string name="amd_ryzen_7">
+AMD Ryzen 7 7700X
+</string>
+
+    <string name="atx_asus_tu">
+ATX ASUS TUF GAMING Z690-PLUS D4
+</string>
+
+    <string name="liquid_cool">
+Liquid cooling system
+</string>
+
+    <string name="id_cooling_liquid">
+ID-Cooling FROSTFLOW 240 XT
+</string>
+
+    <string name="ddr5_32gb_2">
+DDR5 32GB (2*16GB) Team Group
+</string>
+
+    <string name="ddr5_32gb_2_adata">
+DDR5 32GB (2*16GB) ADATA
+</string>
+
+    <string name="gigabyte_ge">
+GIGABYTE GeForce RTX 4070 GAMI NG OC
+</string>
+
+    <string name="adata_agamm">
+ADATA AGAMMIXS70B-1T-CS
+</string>
+
+    <string name="eatx_deepco">
+eATX Deepcool MATREXX 55 MESH ADD-RGB
+</string>
+
+    <string name="atx_be_quie">
+ATX Be quiet! System Power 10
+</string>
+
+    <string name="li_galahad_">
+Li Galahad Edition 360 UNI FAN SL
+</string>
+
+    <string name="eatx_phante">
+eATX PHANTEKS Enthoo Evolv X Glass
+</string>
+
+    <string name="atx_seasoni">
+ATX SeaSonic SSR-1000FX
 </string>
 
 </resources>
