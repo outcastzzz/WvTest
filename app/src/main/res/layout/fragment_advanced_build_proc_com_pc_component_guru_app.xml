@@ -1,177 +1,198 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".advancedBuild.AdvancedBuildProcComPcComponentGuruApp">
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:scaleType="fitXY"
-        android:src="@drawable/com_pc_component_guru_app_loading_image"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        tools:context=".advancedBuild.AdvancedBuildProcComPcComponentGuruApp">
 
-    <ImageView
-        android:id="@+id/backComPcComponentGuruApp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="15dp"
-        android:src="@drawable/image_back_com_pc_component_guru_app_loading_"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/com_pc_component_guru_app_loading_image"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
 
-    <View
-        android:id="@+id/rectangle_1"
-        android:layout_width="202dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="25dp"
-        android:background="@drawable/rectangle_1"
-        app:layout_constraintStart_toEndOf="@+id/backComPcComponentGuruApp"
-        app:layout_constraintTop_toTopOf="parent" />
+        <RelativeLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
-    <TextView
-        android:id="@+id/advanced_bu"
-        android:layout_width="223dp"
-        android:layout_height="44dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:gravity="center_horizontal|top"
-        android:lineSpacingExtra="8sp"
-        android:text="@string/advanced_bu"
-        android:textAppearance="@style/advanced_bu"
-        android:textSize="28sp"
-        android:translationY="-4.01sp"
-        app:layout_constraintBottom_toBottomOf="@+id/rectangle_1"
-        app:layout_constraintEnd_toEndOf="@+id/rectangle_1"
-        app:layout_constraintStart_toStartOf="@+id/rectangle_1" />
+            <ImageView
+                android:id="@+id/menuComPcComponentGuruApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="320dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/com_pc_component_guru_app_image_menu"
+                app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/menuComPcComponentGuruApp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="20dp"
-        android:src="@drawable/com_pc_component_guru_app_image_menu"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/starter_bui"
+                android:layout_width="185.38dp"
+                android:layout_height="44.31dp"
+                android:layout_centerInParent="true"
+                android:gravity="center_horizontal|top"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/advanced_bu"
+                android:textAppearance="@style/starter_bui"
+                android:textSize="26sp"
+                android:translationY="-4.01sp"
+                app:layout_constraintBottom_toBottomOf="@+id/rectangle_1"
+                app:layout_constraintEnd_toEndOf="@+id/rectangle_1"
+                app:layout_constraintStart_toStartOf="@+id/rectangle_1" />
+
+            <ImageView
+                android:id="@+id/backComPcComponentGuruApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerInParent="false"
+                android:layout_marginStart="0dp"
+                android:src="@drawable/image_back_com_pc_component_guru_app_loading_"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/rectangle_1"
+                android:layout_width="202dp"
+                android:layout_height="48dp"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="115dp"
+                android:background="@drawable/rectangle_1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/backComPcComponentGuruApp"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
 
 
-    <TextView
-        android:id="@+id/the_builds_"
-        android:layout_width="387dp"
-        android:layout_height="120dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="15dp"
-        android:gravity="center_horizontal|top"
-        android:lineSpacingExtra="7sp"
-        android:text="@string/the_builds_"
-        android:textAppearance="@style/the_builds_"
-        android:textSize="18sp"
-        android:translationY="-3.33sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rectangle_1" />
+        <TextView
+            android:id="@+id/the_builds_"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="7sp"
+            android:text="@string/the_builds_"
+            android:textAppearance="@style/the_builds_"
+            android:textSize="18sp"
+            android:translationY="-3.33sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
 
-    <TextView
-        android:id="@+id/cpu"
-        android:layout_width="52dp"
-        android:layout_height="44dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:gravity="center_horizontal|top"
-        android:lineSpacingExtra="10sp"
-        android:text="@string/cpu"
-        android:textAppearance="@style/cpu"
-        android:translationY="-4.99sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/the_builds_" />
+        <TextView
+            android:id="@+id/cpu"
+            android:layout_width="52dp"
+            android:layout_height="44dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="10sp"
+            android:text="@string/cpu"
+            android:textAppearance="@style/cpu"
+            android:translationY="-4.99sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/the_builds_" />
 
-    <TextView
-        android:id="@+id/amd_ryzen_7"
-        android:layout_width="246dp"
-        android:layout_height="44dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="-10dp"
-        android:gravity="center_horizontal|top"
-        android:lineSpacingExtra="10sp"
-        android:text="@string/amd_ryzen_7"
-        android:textAppearance="@style/amd_ryzen_7"
-        android:textSize="26sp"
-        android:translationY="-4.99sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cpu" />
+        <TextView
+            android:id="@+id/amd_ryzen_7"
+            android:layout_width="246dp"
+            android:layout_height="44dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="-10dp"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="10sp"
+            android:text="@string/amd_ryzen_7"
+            android:textAppearance="@style/amd_ryzen_7"
+            android:textSize="26sp"
+            android:translationY="-4.99sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cpu" />
 
-    <TextView
-        android:id="@+id/intel_core_"
-        android:layout_width="271dp"
-        android:layout_height="44dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="20dp"
-        android:gravity="center_horizontal|top"
-        android:lineSpacingExtra="10sp"
-        android:text="@string/intel_core_5_13"
-        android:textAppearance="@style/intel_core_"
-        android:translationY="-4.99sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView33" />
+        <TextView
+            android:id="@+id/intel_core_"
+            android:layout_width="271dp"
+            android:layout_height="44dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="10sp"
+            android:text="@string/intel_core_5_13"
+            android:textAppearance="@style/intel_core_"
+            android:translationY="-4.99sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView33" />
 
-    <View
-        android:id="@+id/rectangle_2"
-        android:layout_width="202dp"
-        android:layout_height="48dp"
-        android:layout_marginBottom="35dp"
-        android:background="@drawable/rectangle_1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent" />
+        <View
+            android:id="@+id/rectangle_2"
+            android:layout_width="202dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView34" />
 
-    <TextView
-        android:id="@+id/nextComPcComponentGuruApp"
-        android:layout_width="185.38dp"
-        android:layout_height="44.31dp"
-        android:gravity="center_horizontal|top"
-        android:lineSpacingExtra="11sp"
-        android:text="@string/next"
-        android:textAppearance="@style/next"
-        android:translationY="-5.35sp"
-        app:layout_constraintEnd_toEndOf="@+id/rectangle_2"
-        app:layout_constraintStart_toStartOf="@+id/rectangle_2"
-        app:layout_constraintTop_toTopOf="@+id/rectangle_2" />
+        <TextView
+            android:id="@+id/nextComPcComponentGuruApp"
+            android:layout_width="185.38dp"
+            android:layout_height="44.31dp"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="11sp"
+            android:text="@string/next"
+            android:textAppearance="@style/next"
+            android:translationY="-5.35sp"
+            app:layout_constraintEnd_toEndOf="@+id/rectangle_2"
+            app:layout_constraintStart_toStartOf="@+id/rectangle_2"
+            app:layout_constraintTop_toTopOf="@+id/rectangle_2" />
 
-    <ImageView
-        android:id="@+id/imageView33"
-        android:layout_width="160dp"
-        android:layout_height="144dp"
-        android:src="@drawable/ab_proc_ryzen_com_pc_component_guru_app"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/amd_ryzen_7" />
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="160dp"
+            android:layout_height="144dp"
+            android:src="@drawable/ab_proc_ryzen_com_pc_component_guru_app"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/amd_ryzen_7" />
 
-    <ImageView
-        android:id="@+id/imageView34"
-        android:layout_width="164dp"
-        android:layout_height="130dp"
-        android:src="@drawable/ab_proc_intel_com_pc_component_guru_app"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/intel_core_" />
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="164dp"
+            android:layout_height="130dp"
+            android:src="@drawable/ab_proc_intel_com_pc_component_guru_app"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/intel_core_" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+

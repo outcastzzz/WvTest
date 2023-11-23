@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".advancedBuild.AdvancedBuildGpuComPcComponentGuruApp">
 
     <ImageView
@@ -19,51 +23,64 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-    <ImageView
-        android:id="@+id/backComPcComponentGuruApp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="15dp"
-        android:src="@drawable/image_back_com_pc_component_guru_app_loading_"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <View
-        android:id="@+id/rectangle_1"
-        android:layout_width="202dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="25dp"
-        android:background="@drawable/rectangle_1"
-        app:layout_constraintStart_toEndOf="@+id/backComPcComponentGuruApp"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/advanced_bu"
-        android:layout_width="223dp"
-        android:layout_height="44dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:gravity="center_horizontal|top"
-        android:lineSpacingExtra="8sp"
-        android:text="@string/advanced_bu"
-        android:textAppearance="@style/advanced_bu"
-        android:textSize="28sp"
-        android:translationY="-4.01sp"
-        app:layout_constraintBottom_toBottomOf="@+id/rectangle_1"
-        app:layout_constraintEnd_toEndOf="@+id/rectangle_1"
-        app:layout_constraintStart_toStartOf="@+id/rectangle_1" />
-
-    <ImageView
-        android:id="@+id/menuComPcComponentGuruApp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="20dp"
-        android:src="@drawable/com_pc_component_guru_app_image_menu"
+    <RelativeLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/menuComPcComponentGuruApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/com_pc_component_guru_app_image_menu"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/starter_bui"
+            android:layout_width="185.38dp"
+            android:layout_height="44.31dp"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="8sp"
+            android:text="@string/advanced_bu"
+            android:textAppearance="@style/starter_bui"
+            android:textSize="26sp"
+            android:translationY="-4.01sp"
+            app:layout_constraintBottom_toBottomOf="@+id/rectangle_1"
+            app:layout_constraintEnd_toEndOf="@+id/rectangle_1"
+            app:layout_constraintStart_toStartOf="@+id/rectangle_1" />
+
+        <ImageView
+            android:id="@+id/backComPcComponentGuruApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="false"
+            android:layout_marginStart="0dp"
+            android:src="@drawable/image_back_com_pc_component_guru_app_loading_"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/rectangle_1"
+            android:layout_width="202dp"
+            android:layout_height="48dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="115dp"
+            android:background="@drawable/rectangle_1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/backComPcComponentGuruApp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </RelativeLayout>
 
     <TextView
         android:id="@+id/video_card"
@@ -80,11 +97,11 @@
         android:translationY="-4.99sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rectangle_1" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
     <TextView
         android:id="@+id/gigabyte_ge"
-        android:layout_width="422dp"
+        android:layout_width="match_parent"
         android:layout_height="44dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
@@ -118,7 +135,7 @@
 
     <TextView
         android:id="@+id/adata_agamm"
-        android:layout_width="355dp"
+        android:layout_width="match_parent"
         android:layout_height="44dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
@@ -136,12 +153,12 @@
         android:id="@+id/rectangle_2"
         android:layout_width="202dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="35dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/rectangle_1"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView40" />
 
     <TextView
         android:id="@+id/nextComPcComponentGuruApp"
@@ -152,7 +169,6 @@
         android:text="@string/next"
         android:textAppearance="@style/next"
         android:translationY="-5.35sp"
-        app:layout_constraintBottom_toBottomOf="@+id/rectangle_2"
         app:layout_constraintEnd_toEndOf="@+id/rectangle_2"
         app:layout_constraintStart_toStartOf="@+id/rectangle_2"
         app:layout_constraintTop_toTopOf="@+id/rectangle_2" />
@@ -176,3 +192,5 @@
         app:layout_constraintTop_toBottomOf="@+id/adata_agamm" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
